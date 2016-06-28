@@ -1,4 +1,4 @@
-FROM prom/prometheus:0.20.0
+FROM prom/prometheus:0.16.1
 
 ADD prometheus.yml /etc/prometheus/prometheus.yml
 
